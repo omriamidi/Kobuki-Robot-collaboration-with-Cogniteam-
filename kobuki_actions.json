@@ -1,0 +1,415 @@
+{
+    "forward_backward": [
+        {   
+            "name": "move",
+            "args":{
+                "isForward":true,
+                "speed":0.3,
+                "distance":1
+            },
+            "repetitions":1
+        }
+    ],
+
+    "polite_greeting": [
+
+        {
+            "name": "move",
+            "args": {
+                "isForward":true,
+                "speed":0.1,
+                "distance":0.35
+            },
+            "repetitions":1   
+        },
+        {
+            "name": "move",
+            "args": {
+                "isForward":true,
+                "speed":0.05,
+                "distance":0.05
+            },
+            "repetitions":1   
+        },
+        {
+            "name": "move",
+            "args": {
+                "isForward":false,
+                "speed":0.1,
+                "distance":0.05
+            },
+            "repetitions":1   
+        },
+        {
+            "name": "move",
+            "args": {
+                "isForward":true,
+                "speed":0.05,
+                "distance":0.05
+            },
+            "repetitions":1   
+        }
+    ],
+
+    "goodby_2": [
+        {
+            "name": "move",
+            "args": {
+                "isForward":true,
+                "speed":1.0,
+                "distance":0.6
+            },
+            "repetitions":1
+        },
+        {
+            "name": "rotate",
+            "args":{
+                "clockwise":true,
+                "speed":55,
+                "angle":180
+            },
+            "repetitions":1   
+        }
+    ],
+    
+    "elevator": [
+        {   
+            "name": "move",
+            "args":{
+                "isForward":true,
+                "speed":0.3,
+                "distance":0.3
+            },
+            "repetitions":1
+        },
+        {
+            "name": "rotate",
+            "args":{
+                "clockwise":true,
+                "speed":28,
+                "angle":45
+            },
+            "repetitions":1
+        },
+        {   
+            "name": "move",
+            "args":{
+                "isForward":true,
+                "speed":0.3,
+                "distance":0.3
+            },
+            "repetitions":1
+        },
+        {   
+            "name": "move",
+            "args":{
+                "isForward":false,
+                "speed":0.3,
+                "distance":0.3
+            },
+            "repetitions":1
+        },
+        {   
+            "name": "move",
+            "args":{
+                "isForward":true,
+                "speed":0.3,
+                "distance":0.3
+            },
+            "repetitions":1
+        },
+        {   
+            "name": "move",
+            "args":{
+                "isForward":false,
+                "speed":0.3,
+                "distance":0.3
+            },
+            "repetitions":1
+        },
+        {   
+            "name": "move",
+            "args":{
+                "isForward":true,
+                "speed":0.3,
+                "distance":0.3
+            },
+            "repetitions":1
+        },
+        {   
+            "name": "move",
+            "args":{
+                "isForward":false,
+                "speed":0.3,
+                "distance":0.3
+            },
+            "repetitions":1
+        }
+    ],
+
+"polite": [
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.3,
+            "distance":0.5
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":0.3,
+            "distance":0.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.3,
+            "distance":0.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":0.3,
+            "distance":0.5
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.1,
+            "distance":0.1
+        },
+        "repetitions":1  
+    }        
+],
+
+"Flincing_Cringing": [
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.1,
+            "distance":0.1
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":2.0,
+            "distance":1.0
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "rotate",
+        "args":{
+            "clockwise":true,
+            "speed":28,
+            "angle":22.5 
+        },
+        "repetitions":1   
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":2.0,
+            "distance":1.0
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "rotate",
+        "args":{
+            "clockwise":true,
+            "speed":28,
+            "angle":45
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "rotate",
+        "args":{
+            "clockwise":false,
+            "speed":28,
+            "angle":22.5
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.3,
+            "distance":2.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":0.2,
+            "distance":0.2
+        },
+        "repetitions":1  
+    }   
+],
+
+"Gently_back_away": [
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":0.1,
+            "distance":1.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.3,
+            "distance":0.1
+        },
+        "repetitions":1  
+    }
+],
+
+"Help": [
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":0.2,
+            "distance":0.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.2,
+            "distance":0.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":false,
+            "speed":0.2,
+            "distance":0.1
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":0.2,
+            "distance":0.2
+        },
+        "repetitions":1  
+    }
+],
+
+"Happy": [
+
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":1.0,
+            "distance":0.2
+        },
+        "repetitions":1
+    },
+    {
+        "name": "rotate",
+        "args":{
+            "clockwise":true,
+            "speed":60,
+            "angle":90
+        },
+        "repetitions":1
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":1.0,
+            "distance":0.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "rotate",
+        "args":{
+            "clockwise":true,
+            "speed":60,
+            "angle":90
+        },
+        "repetitions":1
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":1.0,
+            "distance":0.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "rotate",
+        "args":{
+            "clockwise":true,
+            "speed":60,
+            "angle":90
+        },
+        "repetitions":1
+    },
+    {
+        "name": "move",
+        "args":{
+            "isForward":true,
+            "speed":1.0,
+            "distance":0.2
+        },
+        "repetitions":1  
+    },
+    {
+        "name": "rotate",
+        "args":{
+            "clockwise":true,
+            "speed":60,
+            "angle":90
+        },
+        "repetitions":1
+    }
+]
+
+
+}
+
+ 
+
+
+
