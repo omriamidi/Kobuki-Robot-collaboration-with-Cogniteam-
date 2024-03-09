@@ -15,7 +15,7 @@ company's platform through which the robot can be controlled (the name of the pl
 Among other things, an understanding of Docker was required of me in order to run the robot.
 
 
-### The robot:
+### The robot :
 
 <p align="center">
 <img src="https://github.com/omriamidi/Tray_Robot/assets/111886837/2c0dcfc6-0fbb-45a7-80e0-33a14dc67ee9">
