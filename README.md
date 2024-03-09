@@ -18,6 +18,8 @@ The robot:
 
 <img width="255" alt="צילום מסך 2024-03-09 ב-16 58 39" src="https://github.com/omriamidi/Tray_Robot/assets/111886837/2c0dcfc6-0fbb-45a7-80e0-33a14dc67ee9">
 
+
+
 Sample 1:
 
 [gesture 2.MOV.zip](https://github.com/omriamidi/Tray_Robot/files/14542959/gesture.2.MOV.zip)
