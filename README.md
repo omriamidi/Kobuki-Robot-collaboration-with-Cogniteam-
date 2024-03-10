@@ -10,7 +10,7 @@ Any animation (gesture) that you want to implement in the robot is written accor
 
 ### Technologies I used during work -
 
-Since the work was on a cogniteam robot, I had to upload the component (on which the jsin file I am writing sits) to the
+Since the work was on a cogniteam robot, I had to upload the component (on which the json file I am writing sits) to the
 company's platform through which the robot can be controlled (the name of the platform is Nimbus).
 Among other things, an understanding of Docker was required of me in order to run the robot.
 
